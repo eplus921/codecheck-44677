@@ -6,7 +6,7 @@ public class MainApp
     {
         for (int i = 0; i < args.Length; i++)
         {
-           string output = String.Format("Hello {0}", args[i]);
+           string output = String.Format("Hello {0}!", args[i]);
            Console.WriteLine(output);
         }
     }
