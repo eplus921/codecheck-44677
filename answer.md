@@ -17,9 +17,8 @@ public class MainApp
     static public void Main(string[] args)
     {
       var a = Console.ReadLine();
-	if(a=="world"){
-	Console.WriteLine("Hello!world");
-}
+	Console.WriteLine("Hello {0}!",a);
+
     }
 }
 
